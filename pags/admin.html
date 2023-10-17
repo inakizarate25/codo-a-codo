@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../multimedia/branding/isotype.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Cart</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <a href="../index.html" class="logo"><img src="../multimedia/branding/logo_light_horizontal.svg"
+                alt="FUNKOSHOP"></a>
+        <nav>
+            <ul class="nav-links">
+                <div class="dropdown">
+                    <a class="dropdown_a" href="#">
+                        SHOP
+                        <img src="../multimedia/icons/angle-down.svg" alt="arrow">
+                    </a>
+                    <div class="menu">
+                        <a href="#">HARRY POTTER</a>
+                        <a href="#">STAR WARS</a>
+                        <a href="#">POKEMON</a>
+                    </div>
+                </div>
+                <li class="nav-links_li">CONTACTO</li>
+                <li class="nav-links_li">LOGIN</li>
+            </ul>
+            <a href="cart.html" class="link_cart"><img src="../multimedia/icons/cart-icon.svg" alt="cart"></a>
+        </nav>
+    </header>
+
+    <section class="admin">
+        <div class="search">
+
+            <input type="text" placeholder="codigo, nombre o categoria" id="search">
+        </div>
+        <div class="title">
+            <h2>LISTADO DE PRODUCTOS</h2>
+            <div>
+                <h3>AGREGAR</h3>
+                <button>+</button>
+            </div>
+        </div>
+
+        <table class="table-fill">
+            <thead>
+                <tr>
+                    <th class="text-left">Id</th>
+                    <th class="text-left">Codigo</th>
+                    <th class="text-left">Nombre del producto</th>
+                    <th class="text-left">Categoria</th>
+                    <th class="text-left">Editar</th>
+                </tr>
+            </thead>
+            <tbody class="table-hover" id="table-body">
+
+
+
+
+            </tbody>
+        </table>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer_div">
+            <ul>
+                <li>SHOP</li>
+                <li>INGRESAR</li>
+                <li>CONTACTO</li>
+            </ul>
+            <img src="../multimedia/branding/isotype.svg" alt="funkoshop">
+        </div>
+        <p>All rights reserved 2023 - Funkoshop &copy;</p>
+    </footer>
+
+    <script src="../js/admin.js"></script>
+</body>
+
+</html>
